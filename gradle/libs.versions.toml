@@ -1,0 +1,29 @@
+[versions]
+kotlin = "1.6.21"
+gradle = "7.2.0"
+
+# AndroidX
+androidx-core = "1.8.0"
+androidx-activity = "1.4.0"
+androidx-fragment = "1.2.4"
+androidx-multidex = "2.0.0"
+
+# Google
+material = "1.6.1"
+
+
+[libraries]
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+
+
+# AndroidX
+androidx-activity = { module = "androidx.activity:activity-ktx", version.ref = "androidx-activity" }
+androidx-fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "androidx-fragment" }
+androidx-core = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
+androidx-multidex = { module = "androidx.multidex:multidex", version.ref = "androidx-multidex" }
+
+
+material = { module = "com.google.android.material:material", version.ref = "material" }
+
+chart = "com.github.PhilJay:MPAndroidChart:v3.1.0"
