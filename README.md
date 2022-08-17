@@ -126,9 +126,9 @@ private fun RangeBarChart.addData() {
 
 |      variable        |    Description    | 
 | ----------------------- | ---------------- |
-| `barWidth` | Adjust bard width |
-| `minColor` | min color int |
-| `maxColor` | max color int |
+| `barWidth` | Adjust board width |
+| `minColor` | Min color int |
+| `maxColor` | Max color int |
 
 ## FAQ
 
