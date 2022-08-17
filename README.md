@@ -132,7 +132,7 @@ private fun RangeBarChart.addData() {
 ## FAQ
 
 ### Can I use BarChart's function/variable?
-- Yes, RangeBarChart RangeBarChart is a class implemented by inheriting from BarChart.
+- Yes, RangeBarChart is a class implemented by inheriting from BarChart.
 - So you can use all the features that BarChart uses.
 
 
